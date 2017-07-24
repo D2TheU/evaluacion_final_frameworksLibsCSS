@@ -1,6 +1,50 @@
 html {
     background: rgba(0, 0, 0, 0.8);
 }
+.blog-body {
+    background: rgba(0, 0, 0, 0.5);
+}
+.header-row {
+    background-color: #333;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: baseline;
+}
+.header-logo {
+    text-align: left;
+}
+.logo-img {
+    width: 15rem;
+    margin: 10px;
+}
+.social-networks {
+    text-align: right;
+}
+.social-button {
+    width: 4rem;
+    filter: brightness(100%);
+}
+.social-button:hover {
+    filter: brightness(130%);
+}
+.menu-bar {
+    margin-top: 10px;
+    background-color: #CCC;
+}
 @media (max-width: 991px) {
-
+    .blog-body {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .social-networks {
+        text-align: center;
+    }
+    .header-row {
+        display: block;
+    }
+    .logo-img {
+        width: 15rem;
+        margin: 10px auto;
+    }
 }
