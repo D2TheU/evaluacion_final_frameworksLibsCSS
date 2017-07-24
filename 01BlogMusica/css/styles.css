@@ -28,8 +28,16 @@ html {
     filter: brightness(130%);
 }
 .menu-bar {
-    margin-top: 10px;
-    background-color: #CCC;
+    background-color: #AAA;
+    border: 0;
+    min-height: 0;
+}
+.nav-pills>.active>a, .nav-pills>li>a:hover {
+    background-color: #FFF !important;
+    color: #333 !important;
+}
+.nav-pills>li>a {
+    color: #FFF !important;
 }
 @media (max-width: 991px) {
     .blog-body {
