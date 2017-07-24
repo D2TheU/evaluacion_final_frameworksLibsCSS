@@ -45,24 +45,24 @@ html, .blog-body {
     min-height: 20rem;
     border-radius: 5px;
 }
-.post-content {
-    /*background-color: #000;*/
+[class*="post-content"] {
+    padding: 3rem;
 }
-[class*="post_content"] {
-    padding: 2rem;
+.post-wrapper h3 {
+    margin-top: 0;
 }
-[class*="post_img"] {
+[class*="post-img"] {
     width: 100%;
 }
-.post_avatar{
+.post-avatar {
     padding-right: 0;
 }
-.avatar{
+.avatar {
     min-width: 20px;
     width: 100%;
     margin: 5px;
 }
-.btn{
+.btn {
     margin-top: 5px;
 }
 @media (max-width: 991px) {
@@ -80,6 +80,9 @@ html, .blog-body {
     .logo-img {
         width: 15rem;
         margin: 10px auto;
+    }
+    .post-wrapper h3 {
+        margin-top: 2rem;;
     }
     .search-column {
         display: none;
