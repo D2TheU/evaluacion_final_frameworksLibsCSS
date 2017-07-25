@@ -13,14 +13,50 @@ h1 {
     color: #EEE;
 }
 h2 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #DDD;
     font-style: italic;
 }
+h3 {
+    font-size: 1.7rem;
+    color: #FFF;
+}
 .main-wrapper {
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 1rem;
 }
 .logo-wrapper {
     border-right: 1px solid #CCC;
+}
+.side-column {
+    background-color: rgba(147, 189, 96, 0.7);
+    border-radius: 6px;
+}
+.post-column {
+    background-color: rgba(0, 131, 60, 0.7);
+    border-radius: 6px;
+}
+.button.primary {
+    background-color: #004A22;
+    color: #FFF;
+    font-weight: bold;
+}
+.button.primary:hover, .button.primary:focus {
+    background-color: #00833D;
+    color: #FFF;
+}
+.button.hollow.primary {
+    border-color: #004A22;
+    background-color: rgba(0, 0, 0, 0);
+    color: #004A22;
+}
+.button.hollow.primary:hover, .button.hollow.primary:focus {
+    border: 1px solid #004A22;
+    background-color: #004A22;
+    color: #FFF;
+}
+@media (max-width: 1023px) {}
+@media (max-width: 639px) {
+    .logo-wrapper {
+        border: none;
+    }
 }
