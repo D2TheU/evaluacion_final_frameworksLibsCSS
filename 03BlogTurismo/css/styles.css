@@ -28,7 +28,7 @@ body {
     z-index: -1;
 }
 header {
-    padding: 1em 0;
+    padding-top: 1rem;
 }
 .logo-img {
     border-radius: 15px;
@@ -44,6 +44,19 @@ h1 {
     font-size: 2.5rem;
     color: #EEE;
     margin-top: 3vw;
+    margin-bottom: 0;
+}
+.social-wrapper {
+    padding: 0 0.5rem !important;
+    padding-right: 0 !important;
+}
+.social-button {
+    padding: 0.5rem 0.5rem;
+    max-width: 80px !important;
+    min-width: 50px !important;
+}
+.social-button:hover {
+    filter: brightness(130%);
 }
 @media (max-width: 992px) {
     .static-div {
@@ -58,6 +71,10 @@ h1 {
         padding-right: 2rem;
         padding-left: 2rem;
     }
+    .social-button {
+        padding: 0.5rem 0;
+        max-width: 100% !important;
+    }
 }
 @media (max-width: 780px) {
     h1 {
@@ -71,5 +88,13 @@ h1 {
     .menu-btn {
         width: 5rem;
         margin: 0.5rem 0.1rem;
+    }
+}
+@media (max-width: 327px) {
+    .menu-btn {
+        width: 1rem;
+        margin: 0.5rem 0.1rem;
+        padding-right: 2rem;
+        padding-left: 1rem;
     }
 }
