@@ -33,12 +33,14 @@ html, .blog-body {
     text-decoration: none;
     background-color: #AAA;
 }
+// Estilos para las ligas de los botones de navegación
+.nav-pills>li>a {
+    color: #FFF !important;
+}
+// Estilos para las ligas de los botones de navegación activos y hover
 .nav-pills>.active>a, .nav-pills>li>a:hover {
     background-color: #83C700 !important;
     color: #333 !important;
-}
-.nav-pills>li>a {
-    color: #FFF !important;
 }
 .main-content {
     background-color: #CCC;
@@ -80,11 +82,11 @@ html, .blog-body {
     padding-bottom: 2rem;
     padding-left: 2rem;
 }
-.list-group a, .list-group a:focus  {
+.list-group a, .list-group a:focus {
     text-decoration: none;
     color: #333;
 }
-.list-group a:hover{
+.list-group a:hover {
     text-decoration: none;
     color: #AAA;
 }
